@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+        var arr = [1,3,5];
+        var bb = ["a","b","c"];
+        // push()  后面推进去
+        arr.push(7);
+        console.log(arr.toString());
+        arr.unshift(0);
+      //  unshift()    从数组的前面放入
+        console.log(arr.toString());
+        //pop()   删除最后一个元素
+        arr.pop();
+		console.log(arr.toString())
+		//删除第一个元素shift
+		arr.shift();
+		console.log(arr.toString());
+		//concat() 连接2个数组
+		 var cc=bb.concat(arr)
+		console.log(cc.toString())
+		//join() 把数组转换为字符串
+		var dd=bb.join("-");
+		 console.log(dd.toString());
+        //split 用于把一个字符串分割成字符串数组
+		var ee="aa-bb-cc-dd";
+		var ff=ee.split("-");
+		console.log(ff)
+		for(var i=0;i<ff.length;i++){
+            console.log(ff[i]);
+        }
+	</script>
+</body>
+</html>

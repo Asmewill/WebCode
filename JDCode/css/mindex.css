@@ -1,0 +1,416 @@
+/*CSS京东的头部导航start*/
+
+.shortcut {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+
+.shortcut .dt, .fore {
+    padding: 0 20px 0 20px;
+    position: relative;
+}
+
+.shortcut .dt i, .fore i {
+    font: 400 15px/15px "宋体";
+    top: 13px;
+    right: 3px;
+    position: absolute;
+    height: 7px;
+    width: 15px;
+    overflow: hidden;
+    /*background-color: #8A25C6;*/
+}
+
+.shortcut .dt s, .fore s {
+    position: absolute;
+    top: -8px;
+    left: 0;
+}
+
+.fr li {
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+.fr .line {
+    width: 1px;
+    height: 12px;
+    margin-top: 9px;
+    background-color: #ddd;
+    padding: 0;
+/ / 覆盖 li的padding: 0 20 px 0 20 px;
+}
+
+.fore .tel {
+    background: url("../images/sprite.png") -2px -2px;
+    width: 12px;
+    height: 16px;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+
+/** CSS京东的头部导航end**/
+
+/**  CSS京东的TopBanner部分start**/
+
+.topbanner {
+    background-color: #8A25C6;
+}
+.topbanner .close-banner{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    background: url("../images/close.png") no-repeat;
+    width: 19px;
+    height: 19px;
+}
+.topbanner .close-banner:hover{
+    /*background:url("../images/close.png") no-repeat 0 -19px;*/
+    background-position: bottom;
+}
+.logo{
+    width:360px;
+    height: 75px;
+    float: left;
+    background-color: #C81623;
+    padding-top: 25px;
+    background: url(../images/logo.png) no-repeat 0  25px ;
+    position: relative;
+}
+.db11{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    background:url("../images/dong.gif") no-repeat 0 25px;
+}
+.jd-num{
+    display: block;
+    width: 270px;
+    height: 75px;
+    text-indent: -2000em;
+}
+.msearch{
+    float: left;
+    margin-top: 25px;
+    width: 544px;
+    height: 65px;
+    margin-top: 25px;
+    position: relative;
+}
+.search{
+    width: 540px;
+    height: 36px;
+    border: #C81623 2px solid;
+}
+.search input{
+    width:460px;
+    height:36px ;
+    line-height: 36px;
+    font-family: "Microsoft YaHei";
+    color: #cccccc;
+}
+.search button{
+    width:80px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #B61D1D;
+    color: #ffffff;
+    font: 16px/36px "Microsoft YaHei";
+}
+
+.hotwords{
+    float: left;
+    padding: 7px 4px;
+    width: 500px;
+}
+.hotwords a{
+    margin-left: 4px;
+}
+.car{
+    float: right;
+    height: 36px;
+    width: 144px;
+    margin: 25px 70px 0 0;
+    border: #cccccc 1px solid;
+    line-height: 36px;
+    text-align: center;
+    position: relative;
+}
+.icon1{
+    position:absolute;
+    width: 28px;
+    height: 16px;
+    background: url("../images/sprite.png") 0 -90px;
+    top: 10px;
+    left: 15px;
+}
+.icon2{
+    position:absolute;
+    right: 15px;
+    font: 14px/36px "宋体";
+}
+
+.icon3{
+    position:absolute;
+    border-radius: 7px 7px 7px 0px;
+    height: 14px;
+    width: 16px;
+    background-color: #C81623;
+    color: #ffffff;
+    top: -5px;
+    line-height: 16px;
+}
+/**  CSS京东的TopBanner部分end**/
+
+/**CSS京东的nav部分start**/
+.jd-nav{
+    width: 100%;
+    height: 44px;
+    border-bottom: #C81623 2px solid;
+
+}
+.dropdown{
+    width: 210px;
+    background-color: #B1191A;
+    float: left;
+}
+.dropdown .dt a{
+    font: 15px/44px "Microsoft YaHei";
+    color: #ffffff;
+}
+.dropdown .dd{
+    width: 210px;
+    height: 465px;
+    background-color: #C81623;
+    position: relative;/**提高显示的等级**/
+    z-index: 1;
+}
+.dropdown .dd .items{
+    width:210px;
+    height: 31px;
+    line-height: 31px;
+    color: #ffffff;
+    font: 400 15px/31px "Microsoft YaHei";
+
+}
+.dropdown .dd .items h3{
+    float: left;
+    padding-left: 10px;
+}
+.dropdown .dd .items span{
+    float: right;
+    padding-right: 10px;
+    font-family: "新宋体";
+    font-weight: bold;
+}
+.navitems{
+    height: 44px;
+    float: left;
+}
+.navitems ul li{
+    padding: 0 20px;
+    font: 15px/44px "Microsoft YaHei";
+    float: left;
+    position: relative;
+}
+.navitems ul li a{
+    color: #000000;
+}
+.navitems ul li a:hover{
+    color: #C81623;
+}
+.navitems ul li .new{
+    position: absolute;
+    width:16px;
+    height: 17px;
+    background: url("../images/new.jpg") no-repeat;
+    top: 0;
+    right: 0;
+}
+.mbike{
+    display: block;
+    width: 140px;
+    height: 44px;
+    background: url("../images/bike.jpg");
+}
+/**banner**/
+.banner604{
+    position: relative;
+}
+.banner604 a{
+    position: absolute;
+    width: 100%;
+    height: 604px;
+    background: url("../images/banner.jpg") top center;
+    top: 0;
+    left: 0;
+}
+
+.slider{
+    width:730px;
+    height: 453px;
+    margin: 10px 0 0 10px;
+    float: left;
+    position: relative;
+}
+.slider .circle{
+    position: absolute;
+    height: 20px;
+    left: 50%;
+    bottom:10px;
+    margin-left: -74px;
+}
+.slider .circle ul li{
+    margin: 0  2px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #666666;
+    font: 12px/20px "Microsoft YaHei";
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.slider .circle ul .current{
+    margin: 0  2px;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #C81623;
+    font: 12px/20px "Microsoft YaHei";
+    text-align: center;
+    color: #ffffff;
+}
+.slider .arrowl {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    background: #f1f1f1;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    margin-top: -30px;
+    cursor: pointer;
+    font: 400 15px/60px "宋体" ;
+}
+.slider .arrowl:hover{
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.slider .arrowr {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    background: #f1f1f1;
+    text-align: center;
+    top: 50%;
+    right: 0;
+    margin-top: -30px;
+    cursor: pointer;
+    font: 400 15px/60px "宋体" ;
+}
+.slider .arrowr:hover{
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.news {
+    width: 252px;
+    height: 450px;
+    border: 1px solid #E4E4E4;
+    float: right;
+    margin-top: 12px;
+}
+
+.jd-news .dt{
+    height:45px;
+    border-bottom: #cccccc 1px dashed;
+    line-height: 45px;
+}
+.jd-news .dt h3{
+    float: left;
+    font-family: 宋体;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.jd-news .dt a{
+    float: right;
+    margin-right: 15px;
+}
+
+.jd-news .dd ul li {
+    width:100%;
+    height: 31px;
+    font: 12px/31px "宋体";
+    padding-left: 12px;
+}
+.jd-news .dd ul li a .spanl{
+    color: #000;
+    font-weight: bold;
+}
+.jd-news .dd ul li a .spanr{
+    color: #666666;
+}
+.lifeservi .dt{
+    height: 40px;
+    border-top: #cccccc 1px dashed;
+    line-height: 40px;
+    padding-left: 12px;
+}
+.lifeservi .dt .dd ul{
+    width:252px;
+    overflow: hidden;
+}
+.lifeservi  .dd ul li {
+    float: left;
+    width:62px;
+    height: 69px;
+    line-height: 69px;
+    border:#cccccc 1px solid ;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.nightl{
+    margin-top: 10px;
+}
+.nightr{
+    width: 1000px;
+    height: 160px;
+    float: right;
+}
+.nigthr ul{
+    width: 500%;
+}
+.nightr li{
+    float: left;
+}
+.nightr li a{
+    display: block;
+    width: 248px;
+    height: 160px;
+    margin-top: 10px;
+    margin-right: 2px;
+    background: url("../images/1.jpg") no-repeat;
+}
+
+.slogen{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+}
+.slogen li{
+    width: 302px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+}
